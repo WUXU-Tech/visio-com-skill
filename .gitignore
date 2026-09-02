@@ -1,0 +1,35 @@
+# Generated diagrams and previews
+*.vsdx
+*.vsd
+*.vdx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Local runtime output
+*.log
+~$$*
+work/
+outputs/
+tmp/
+temp/
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Python and editor cache
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# Local agent/system state
+.codex/
+.agents/
+.claude/
